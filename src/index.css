@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.react-chatbot-kit-chat-container {
+  width: 80vw !important;
+  max-width: 1000px !important;
+  min-width: 300px !important;
+  height: 90vh !important;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  margin: 0 !important;
+  width: auto !important;
+  background-color: #df5d00 !important;
+}
+
+.react-chatbot-kit-chat-inner-container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh !important;
+}
+
+.react-chatbot-kit-chat-message-container {
+  flex-grow: 1;
+}
+
+.react-chatbot-kit-chat-input-form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.react-chatbot-kit-chat-header {
+  display: flex;
+  justify-content: center;
+  font-size: x-large !important;
+}
+
+.react-chatbot-kit-chat-header,
+.react-chatbot-kit-chat-btn-send {
+  background-color: white !important;
+  color: #df5d00 !important;
+  border-bottom: 2px solid #df5d00;
+  box-shadow: rgba(250, 140, 5, 0.537) 0px 5px 5px;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #df5d00 !important;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  max-width: 85%;
+}
+
+.option-button {
+  border-color: #df5d00 !important;
+}
