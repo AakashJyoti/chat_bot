@@ -10,6 +10,7 @@ class ActionProvider {
   getResponse = async (msg) => {
     const res = await fetch(`/api/chat?query=${msg}`);
     const data = await res.json();
+
     const message = this.createChatBotMessage(data.result);
     this.addMessageToState(message);
   };

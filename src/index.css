@@ -52,11 +52,14 @@ button {
   display: flex;
   justify-content: center;
   font-size: x-large !important;
+  background-color: white !important;
+  color: #df5d00 !important;
+  border-bottom: 2px solid #df5d00;
+  box-shadow: rgba(250, 140, 5, 0.537) 0px 5px 5px;
 }
 
-.react-chatbot-kit-chat-header,
 .react-chatbot-kit-chat-btn-send {
-  background-color: white !important;
+  background-color: #df5d00 !important;
   color: #df5d00 !important;
   border-bottom: 2px solid #df5d00;
   box-shadow: rgba(250, 140, 5, 0.537) 0px 5px 5px;
@@ -72,4 +75,8 @@ button {
 
 .option-button {
   border-color: #df5d00 !important;
+}
+
+.react-chatbot-kit-chat-bot-message span {
+  white-space: pre-line;
 }
