@@ -4,7 +4,7 @@ import { createChatBotMessage } from "react-chatbot-kit";
 import Options from "../components/Options/Options";
 
 const config = {
-  botName: "Federal Bank",
+  botName: "IFFCO",
   initialMessages: [createChatBotMessage(`Hello! how can i help you.`)],
   widgets: [
     {
